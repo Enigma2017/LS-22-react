@@ -1,0 +1,52 @@
+html {
+  font-size: 1px;
+  @include tablet {
+    font-size: 1.2px;
+  }
+  @include desktop-small {
+    font-size:1.4px;
+  }
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-size: 16rem;
+  font-family: var(--font-family);
+  background: var(--bg-primary);
+  color: var(--white);
+  overflow-x: auto;
+}
+
+#root {
+  max-width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.main {
+  padding: 0 30rem;
+  margin-bottom: 60rem;
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  border: 0;
+  font-family: var(--font-family);
+}
+
+a {
+  color: var(--white);
+}
+
+.page-title {
+  font-weight: 600;
+  font-size: 30rem;
+  text-align: center;
+  margin-top: 100px;
+}
+

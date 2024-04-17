@@ -1,0 +1,34 @@
+.form {
+    background: var(--bg-secondary);
+    border-radius: 15rem;
+    padding: 13rem 18rem;
+    width: 430px;
+    display: flex;
+    gap: 19rem;
+    margin-bottom: 28rem;
+  
+    &__input {
+      width: 330px;
+      background: transparent;
+      border: 0;
+      outline: 0;
+      color: var(--white);
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 10rem;
+      line-height: 200%;
+  
+      &::placeholder {
+        color: var(--c-secondary);
+      }
+    }
+  
+    &__btn {
+      color: var(--c-secondary);
+      background: transparent;
+    }
+    .icon-search:before {
+      color: var(--c-secondary);
+    }
+  }
+  

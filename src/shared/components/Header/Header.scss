@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30rem;
+
+  .menu,
+  .user {
+    cursor: pointer;
+    width: 30rem;
+    height: 30rem;
+    border-radius: var(--b-radius);
+    border: var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .icon-menu {
+      font-size: 14rem;
+
+      &::before {
+        color: var(--c-icon-menu);
+      }
+    }
+  }
+}

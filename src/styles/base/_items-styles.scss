@@ -1,0 +1,63 @@
+.list {
+  display: flex;
+  overflow-x: auto;
+  gap: 22rem;
+  transition: .3s all ease-in;
+  overflow-x: auto;
+  padding-bottom: 15rem;
+  @include desktop-small {
+    gap: 60rem;
+    
+  }
+}
+.item {
+  background: linear-gradient(137deg, #252a32 0%, #262b33 100%);
+  border-radius: 23rem;
+  display: flex;
+  flex-direction: column;
+  padding: 12rem 12rem 22rem 12rem;
+  flex: 1 0 149rem;
+  max-width: 149rem;
+
+  &__img {
+    margin-bottom: 10rem;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 13rem;
+    line-height: 154%;
+  }
+
+  &__desc {
+    font-weight: 400;
+    font-size: 9rem;
+    line-height: 222%;
+    margin-bottom: 6rem;
+  }
+
+  &__id {
+    display: none;
+  }
+}
+.price-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.price {
+  font-weight: 600;
+  font-size: 15rem;
+  line-height: 133%;
+  & span {
+    color: var(--c-primary);
+  }
+}
+.icon-plus {
+  font-size: 10rem;
+  &::before {
+    padding: 10rem;
+    background: var(--c-primary);
+    border-radius: 7rem;
+  }
+}

@@ -1,0 +1,39 @@
+.header-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-menu);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20rem;
+  transform: translateX(-120%);
+  transition: 1s ease-in-out;
+
+  &.is-active{
+    transition: 1s ease-in-out;
+  
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+    transform: translateX(0);
+}
+
+  .header-menu-close {
+    position: absolute;
+    top: 40rem;
+    right: 40rem;
+    cursor: pointer;
+  }
+
+  a {
+    color: var(--white);
+    &:hover{
+      color: var(--c-primary);
+    }
+  }
+}

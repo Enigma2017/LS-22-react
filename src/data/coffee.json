@@ -1,0 +1,32 @@
+[
+    {
+      "image": "/src/assets/img/home/cappuccino1.png",
+      "title": "Cappuccino",
+      "desc": "With Steamed Milk",
+      "id": 1
+    },
+    {
+      "image": "/src/assets/img/home/cappuccino2.png",
+      "title": "Espresso",
+      "desc": "With Foam",
+      "id": 2
+    },
+    {
+      "image": "/src/assets/img/home/cappuccino3.png",
+      "title": "Cappuccino",
+      "desc": "With Steamed Milk",
+      "id": 3
+    },
+    {
+      "image": "/src/assets/img/home/cappuccino2.png",
+      "title": "Americano",
+      "desc": "With Foam",
+      "id": 4
+    },
+    {
+      "image": "/src/assets/img/home/cappuccino3.png",
+      "title": "Macchiato",
+      "desc": "With Steamed Milk",
+      "id": 5
+    }
+  ]

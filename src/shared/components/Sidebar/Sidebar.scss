@@ -1,0 +1,23 @@
+.sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 75rem;
+    padding: 22rem 35rem 60rem 35rem;
+    .sidebar-link {
+        font-size: 24rem;
+         
+        .sidebar-link__icon::before {
+          transition: var(--transition);
+          color: var(--white);
+        }
+      
+        &.active {
+          .sidebar-link__icon::before {
+            color: var(--c-primary);
+          }
+        }
+      }
+      
+  }
+  

@@ -1,0 +1,32 @@
+[
+    {
+      "image": "/src/assets/img/home/beans1.png",
+      "title": "Robusta Beans",
+      "desc": "Medium Roasted",
+      "id": 6
+    },
+    {
+      "image": "/src/assets/img/home/beans2.png",
+      "title": "Robusta Beans",
+      "desc": "Medium Roasted",
+      "id": 7
+    },
+    {
+      "image": "/src/assets/img/home/beans3.png",
+      "title": "Robusta Beans",
+      "desc": "Medium Roasted",
+      "id": 8
+    },
+    {
+      "image": "/src/assets/img/home/beans4.png",
+      "title": "Robusta Beans",
+      "desc": "Medium Roasted",
+      "id": 9
+    },
+    {
+      "image": "/src/assets/img/home/beans2.png",
+      "title": "Robusta Beans",
+      "desc": "Medium Roasted",
+      "id": 10
+    }
+  ]
